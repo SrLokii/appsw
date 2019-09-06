@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajuda SW</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <button onclick=calculaEssenciaLowMagic()>Calc</button>
+    <table id="tabelaMonstro">
+        <thead>
+            <tr>
+                <th>Monstro</th>
+                <th>Quantidade</th>
+                <th>Food 1</th>
+                <th>Food 2</th>
+                <th>Food 3</th>
+                <th>Food 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="./imagens/Lupinus.png"></td>
+                <td><input onchange=inserirValor(),calculaEssenceMagic() min="0" id="Lupinus"class="input" type="number"></td>
+                <td><img src="./imagens/roger.png"></td>
+                <td><img src="./imagens/moria.png"></td>
+                <td><img src="./imagens/spectra.png"></td>
+                <td><img src="./imagens/tarq.png"></td>
+            </tr>
+            <tr class="TdMonstros">
+                <td></td>
+                <td></td>
+                <td id="bhw"></td>
+                <td id="hew"></td>
+                <td id="gff"></td>
+                <td id="hhw"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="tabelaEssencia">
+        <table >
+            <thead>
+                <tr>
+                    <th><img src="imagens/lowmagic.png"></th>
+                    <th><img src="imagens/midmagic.png"></th>
+                    <th><img src="imagens/hghmagic.png"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="lowmagic"></td>
+                    <td id="midmagic"></td>
+                    <td id="hghmagic"></td>
+                </tr>
+            </tbody>
+        </table>
+        <table >
+            <thead>
+                <tr>
+                    <th><img src="imagens/lowwind.png"></th>
+                    <th><img src="imagens/midwind.png"></th>
+                    <th><img src="imagens/hghwind.png"></th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+        <table >
+            <thead>
+                <tr>
+                    <th><img src="imagens/lowwater.png"></th>
+                    <th><img src="imagens/midwater.png"></th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+        <table >
+            <thead>
+                <tr>
+                    <th><img src="imagens/lowfire.png"></th>
+                    <th><img src="imagens/midfire.png"></th>
+                    <th><img src="imagens/hghfire.png"></th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>

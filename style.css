@@ -1,0 +1,17 @@
+#tabelaMonstro{
+    float:left;
+    display: block;
+    position: relative;
+}
+#tabelaEssencia{
+    display: block;
+    position: fixed;
+    right: 40px;
+    
+}
+.input{
+    max-width: 75px;
+}
+.TdMonstros  td{
+    text-align: center;
+}
